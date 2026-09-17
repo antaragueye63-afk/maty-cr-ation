@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact — Maty Création</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+<header class="header">
+
+   <a href="index.html" class="logo">
+    <img src="images/logo.png" alt="Maty Création">
+</a>
+
+    <nav class="nav">
+
+        <a href="index.html">Accueil</a>
+
+        <a href="boutique.html">Boutique</a>
+
+        <a href="sur-mesure.html">Sur mesure</a>
+
+        <a href="apropos.html">À propos</a>
+
+        <a href="contact.html" class="active">
+            Contact
+        </a>
+
+    </nav>
+
+    <a href="panier.html" class="cart">
+        Panier <span id="cart-count">0</span>
+    </a>
+
+</header>
+
+
+<main>
+
+<section class="page-title">
+
+    <p class="small-title">
+        CONTACT
+    </p>
+
+    <h1>
+        Parlons de
+        <em>votre projet.</em>
+    </h1>
+
+</section>
+
+
+<section class="contact">
+
+    <div class="contact-info">
+
+        <h2>
+            Nous contacter
+        </h2>
+
+        <p>
+            Une question concernant une commande
+            ou une création sur mesure ?
+        </p>
+
+
+        <div class="contact-item">
+
+            <strong>Téléphone</strong>
+
+            <span>
+                +221 77 867 15 63
+            </span>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            <strong>Email</strong>
+
+            <span>
+               maty45385@gmail.com
+            </span>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            <strong>Adresse</strong>
+
+            <span>
+                Thiès/Médinal fall Dérriére Centre Dombosco, Sénégal
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <form 
+    class="contact-form"
+    action="https://formspree.io/f/mnpnqojy"
+    method="POST">
+
+    <input 
+        type="text"
+        name="nom"
+        placeholder="Votre nom"
+        required>
+
+    <input 
+        type="email"
+        name="email"
+        placeholder="Votre email"
+        required>
+
+    <input 
+        type="tel"
+        name="telephone"
+        placeholder="Votre téléphone">
+
+    <textarea 
+        name="message"
+        placeholder="Votre message"
+        required></textarea>
+
+    <button type="submit" class="btn">
+        Envoyer le message
+    </button>
+
+</form>
+
+</section>
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
