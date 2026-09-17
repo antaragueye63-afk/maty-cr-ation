@@ -219,3 +219,23 @@ filters.forEach(filter => {
     });
 
 });
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menuBtn = document.querySelector(".menu-btn");
+    const nav = document.querySelector(".nav");
+
+    if (!menuBtn || !nav) return;
+
+    menuBtn.addEventListener("click", function () {
+
+        nav.classList.toggle("active");
+
+        if (nav.classList.contains("active")) {
+            menuBtn.textContent = "✕";
+        } else {
+            menuBtn.textContent = "☰";
+        }
+
+    });
+
+});
